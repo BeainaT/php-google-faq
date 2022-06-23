@@ -17,6 +17,22 @@ require 'php-data/data.php';
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <header>
+            <div class="header_box">
+                <div class="header_top">
+                    <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
+                    <span>Privacy e termini</span>
+                </div>
+                <nav>
+                    <ul>
+                        <?php 
+                        foreach($links_nav as $link):?>
+                        <li><a href="#"><?= $link ?></a></li>
+                        <?php endforeach; ?>
+                    </ul>
+                </nav>
+            </div>
+        </header>
         <main>
             <?php
             foreach($FAQs as $FAQ):?>
