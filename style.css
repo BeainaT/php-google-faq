@@ -1,0 +1,42 @@
+:root {
+    --link_deco_color: #3367d6;
+}
+
+body {
+    font-family: 'Roboto', arial, sans-serif;
+    font-weight: 400;
+    max-width: 75rem;
+    margin: auto;
+}
+h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0;
+    padding: 4rem 0 0 0;
+}
+p,
+ol {
+    font-size: .875rem;
+}
+a {
+    text-decoration: none;
+    color: var(--link_deco_color);
+}
+p,
+li {
+    line-height: 1.5rem;
+    padding-top: 1.25rem;
+}
+p {
+    margin: 10px 0;
+}
+li {
+    padding-left: 16px;
+}
+h3 {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    margin: 0;
+    padding: 3.25rem 0 0 0;
+}
