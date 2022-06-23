@@ -1,5 +1,12 @@
 :root {
+    --text_color: #3c4043;
     --link_deco_color: #3367d6;
+    --primary_color: rgba(0,0,0,.87);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -7,13 +14,18 @@ body {
     font-weight: 400;
     max-width: 75rem;
     margin: auto;
+    color: var(--primary_color);
 }
 h2 {
-    font-weight: 500;
     font-size: 1.5rem;
     line-height: 2rem;
-    margin: 0;
     padding: 4rem 0 0 0;
+}
+h2,
+h3 {
+    color: var(--text_color);
+    margin: 0;
+    font-weight: 500;
 }
 p,
 ol {
@@ -37,6 +49,5 @@ li {
 h3 {
     font-size: 1.125rem;
     line-height: 1.625rem;
-    margin: 0;
     padding: 3.25rem 0 0 0;
 }
